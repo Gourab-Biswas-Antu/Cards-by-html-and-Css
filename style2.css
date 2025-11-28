@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #fffd8f, #043915);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #dcf9b4cc;
+  border: 4px solid #f4f40c;
+  border-radius: 15px;
+  height: 480px;
+  width: 350px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+h2,form {
+  text-align: center;
+}
+
+button{
+    margin: 15px;
+    margin-left: 137px;
+    padding: 7px;
+    background-color: #f4f40c;
+    border-radius: 12%;
+    border: none;
+}
+
+button:hover{
+background-color:#043915;
+color: #fff;
+}
